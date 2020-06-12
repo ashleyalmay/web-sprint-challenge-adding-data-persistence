@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
     res.json(resources);
   })
   .catch(err => {
-    res.status(500).json({ message: 'Failed to get projects' });
+    res.status(500).json({ message: 'Failed to get resources' });
   });
 });
 
@@ -21,7 +21,7 @@ router.post('/', (req, res) => {
   res.json(newMake);
 })
 .catch(err => {
-  res.status(500).json({ message: 'Failed to post project' });
+  res.status(500).json({ message: 'Failed to post resource' });
 });
 });
 
