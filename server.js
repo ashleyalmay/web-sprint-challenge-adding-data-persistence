@@ -1,7 +1,7 @@
 const express = require('express');
 const ProjectRouter = require('./projects/project-router');
 const ResourcesRouter = require('./resources/resources-router');
-const TasksRouter = require('./tasks/task-router');
+const TasksRouter = require('./tasks/tasks-router');
 const server = express();
 
 server.use(express.json());
